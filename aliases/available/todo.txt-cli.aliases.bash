@@ -1,7 +1,6 @@
 cite 'about-alias'
 about-alias 'todo.txt-cli abbreviations'
 
-alias t="$TODO"
 alias tls="$TODO ls"
 alias ta="$TODO a"
 alias trm="$TODO rm"
