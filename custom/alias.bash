@@ -8,7 +8,7 @@ export EDITOR=vim
 
 #wordmove hack
 function wordfix { 
-    ssh -p 420 -t joe@$1 "sudo chgrp wordmove /var/www/*/htdocs" 
+    ssh -p 420 -t joe@$1 "sudo chgrp -R wordmove /var/www/*/htdocs" 
 }
 
 #todo.sh
