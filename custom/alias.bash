@@ -7,8 +7,9 @@ alias show='defaults write com.apple.finder AppleShowAllFiles YES'
 export EDITOR=vim
 
 #wordmove hack
-function open { ssh -p 420 -t joe@$1 "sudo chgrp wordmove /var/www/*/htdocs" }
-export -f open
+function wordfix { 
+    ssh -p 420 -t joe@$1 "sudo chgrp wordmove /var/www/*/htdocs" 
+}
 
 #todo.sh
 alias te='subl $HOME/Dropbox/Apps/todo/todo.txt'
