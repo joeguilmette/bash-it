@@ -3,12 +3,16 @@ alias mosh420='mosh --ssh="ssh -p 420"'
 alias gitrm='git rm $(git ls-files --deleted)'
 alias hide='defaults write com.apple.finder AppleShowAllFiles NO'
 alias show='defaults write com.apple.finder AppleShowAllFiles YES'
+alias pull='bash ~/git/pull.sh'
 
 export EDITOR=vim
+export PATH=$PATH:/usr/games/bin
+
+source ~/.bin/tmuxinator.bash
 
 #wordmove hack
 function wordfix { 
-    ssh -p 420 -t joe@$1 "sudo chgrp -R wordmove /var/www/*/htdocs" 
+    ssh -p 420 -t joe@$1 "lockdown" 
 }
 
 #todo.sh
