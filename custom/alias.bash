@@ -6,6 +6,13 @@ alias show='defaults write com.apple.finder AppleShowAllFiles YES && sudo killal
 alias pull='bash ~/Dropbox/Dev/git/pull/pull.sh'
 alias mux='tmuxinator'
 alias ref='cd .. && cd -'
+alias gs='git status'
+alias gb='git branch'
+alias go='git checkout'
+alias ga='git add'
+alias gc='git commit'
+alias gh="log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
+
 
 export EDITOR=vim
 export PATH=$PATH:/usr/games/bin
