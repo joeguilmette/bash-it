@@ -1,0 +1,1 @@
+rsync -avz --stats --partial --progress mynameisjoe@minotaur.seedboxes.cc:~/boat/* ~/Movies/
