@@ -11,7 +11,7 @@ alias gb='git branch'
 alias go='git checkout'
 alias ga='git add'
 alias gc='git commit'
-alias gh="log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
+alias gh="git log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
 
 
 export EDITOR=vim
