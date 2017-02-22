@@ -13,7 +13,7 @@ alias ga='git add'
 alias gc='git commit'
 alias gh="git log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
 alias tor='rsync -avz --stats --partial --progress mynameisjoe@minotaur.seedboxes.cc:'
-
+alias pg='ping -c 3 google.com'
 
 export EDITOR=vim
 export PATH=$PATH:/usr/games/bin

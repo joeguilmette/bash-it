@@ -1,1 +1,3 @@
-rsync -avz --stats --partial --progress mynameisjoe@minotaur.seedboxes.cc:~/boat/* ~/Movies/
+rsync -avz --stats --partial --progress mynameisjoe@minotaur.seedboxes.cc:~/torrents/Plex/Movies/Saus* ~/Movies/
+
+rsync -avz --stats --partial --progress mynameisjoe@minotaur.seedboxes.cc:~/torrents/Plex/Movies/*Tinker*/* ~/Movies/
