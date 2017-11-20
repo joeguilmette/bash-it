@@ -3,7 +3,7 @@ alias mosh420='mosh --ssh="ssh -p 420"'
 alias gitrm='git rm $(git ls-files --deleted)'
 alias hide='defaults write com.apple.finder AppleShowAllFiles NO && sudo killall Finder && clear'
 alias show='defaults write com.apple.finder AppleShowAllFiles YES && sudo killall Finder && clear'
-alias pull='bash ~/.bash_it/plex/rs.sh'
+alias pull='bash ~/Dropbox/Dev/git/pull/pull.sh'
 source ~/.bash_it/plex/rs.sh
 alias mux='tmuxinator'
 alias ref='cd .. && cd -'
