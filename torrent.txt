@@ -1,3 +1,1 @@
-rsync -avz --stats --partial --progress mynameisjoe@minotaur.seedboxes.cc:~/torrents/Plex/Movies/Saus* ~/Movies/
-
-rsync -avz --stats --partial --progress mynameisjoe@minotaur.seedboxes.cc:~/torrents/Plex/Movies/*Tinker*/* ~/Movies/
+rsync -avz --stats --partial --progress -e 'ssh -p 41055' mynameisjoe@mynameisjoe.cloud.seedboxes.cc:~/files/Plex/TV/*Americans*/*S05E03*/* ~/Movies/
